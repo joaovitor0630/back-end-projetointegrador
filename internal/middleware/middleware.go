@@ -13,6 +13,8 @@ var allowedOrigins = map[string]bool{
 	"https://localhost:5173": true,
 	"http://localhost:3000":  true,
 	"http://localhost:8080":  true,
+	// Produção no Render
+	"https://front-end-projetointegrador-mjzn.onrender.com": true,
 }
 
 // CORS middleware adds cross-origin headers with origin whitelist
